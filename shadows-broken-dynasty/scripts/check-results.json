@@ -1,0 +1,221 @@
+{
+  "state1": {
+    "phase": "playing",
+    "wave": 1,
+    "hp": 100,
+    "stamina": 100,
+    "qi": 0,
+    "player": {
+      "x": 0,
+      "y": 0,
+      "z": 14,
+      "clip": "Idle_Sword"
+    },
+    "weapon": "katana",
+    "drawn": true,
+    "attack": "idle",
+    "combo": 0,
+    "parrying": false,
+    "rolling": false,
+    "enemies": [
+      {
+        "kind": "assassin",
+        "hp": 55,
+        "alive": true,
+        "state": "patrol",
+        "x": -10.235153397100667,
+        "z": -6.217031978823432
+      },
+      {
+        "kind": "assassin",
+        "hp": 55,
+        "alive": true,
+        "state": "patrol",
+        "x": 9.933608113756625,
+        "z": -6.044633142854237
+      }
+    ],
+    "boss": null,
+    "fps": 2
+  },
+  "tip1": {
+    "tip": [
+      0.24906939200361286,
+      -0.05112294348496893,
+      13.470059342105204
+    ],
+    "hand": [
+      0.22089788233696112,
+      1.0325264935606335,
+      13.857684335472102
+    ],
+    "base": [
+      0.22163200266860744,
+      1.0042877128754297,
+      13.847583230062698
+    ],
+    "tipHandDist": 1.1512353677023814,
+    "baseHandDist": 0.02999999996233793
+  },
+  "before": {
+    "phase": "playing",
+    "wave": 1,
+    "hp": 100,
+    "stamina": 100,
+    "qi": 0,
+    "player": {
+      "x": -9.56424854057717,
+      "y": 0,
+      "z": -5.505353931176153,
+      "clip": "Idle_Sword"
+    },
+    "weapon": "katana",
+    "drawn": true,
+    "attack": "idle",
+    "combo": 0,
+    "parrying": false,
+    "rolling": false,
+    "enemies": [
+      {
+        "kind": "assassin",
+        "hp": 55,
+        "alive": true,
+        "state": "chase",
+        "x": -10.823036889852336,
+        "z": -6.759611925882011
+      },
+      {
+        "kind": "assassin",
+        "hp": 55,
+        "alive": true,
+        "state": "patrol",
+        "x": 9.269689251322875,
+        "z": -6.490964571396607
+      },
+      {
+        "kind": "assassin",
+        "hp": 55,
+        "alive": true,
+        "state": "patrol",
+        "x": -0.4160614975263224,
+        "z": -15.513694714941167
+      }
+    ],
+    "boss": null,
+    "fps": 2
+  },
+  "after": {
+    "phase": "playing",
+    "wave": 1,
+    "hp": 100,
+    "stamina": 90.79999999999994,
+    "qi": 20,
+    "player": {
+      "x": -10.187090209340754,
+      "y": 0,
+      "z": -5.961277309366168,
+      "clip": "Idle_Sword"
+    },
+    "weapon": "katana",
+    "drawn": true,
+    "attack": "idle",
+    "combo": 2,
+    "parrying": false,
+    "rolling": false,
+    "enemies": [
+      {
+        "kind": "assassin",
+        "hp": 31,
+        "alive": true,
+        "state": "chase",
+        "x": -11.143318779793727,
+        "z": -6.666334831840565
+      },
+      {
+        "kind": "assassin",
+        "hp": 55,
+        "alive": true,
+        "state": "patrol",
+        "x": 7.809067753968625,
+        "z": -7.472893714189825
+      },
+      {
+        "kind": "assassin",
+        "hp": 55,
+        "alive": true,
+        "state": "chase",
+        "x": -3.1264388468849402,
+        "z": -12.768378184666384
+      }
+    ],
+    "boss": null,
+    "fps": 2
+  },
+  "tip2": {
+    "tip": [
+      -10.396767079678712,
+      -0.08993535830815858,
+      -6.502669502994033
+    ],
+    "hand": [
+      -10.133103987068734,
+      1.0286261858990244,
+      -6.213356794044353
+    ],
+    "base": [
+      -10.139778586182661,
+      1.0003099363939865,
+      -6.220680710075558
+    ],
+    "tipHandDist": 1.185073836578809,
+    "baseHandDist": 0.030000000089922298
+  },
+  "state2": {
+    "phase": "playing",
+    "wave": 1,
+    "hp": 100,
+    "stamina": 96.39999999999992,
+    "qi": 20,
+    "player": {
+      "x": -10.187090209340754,
+      "y": 0,
+      "z": -5.961277309366168,
+      "clip": "Idle_Sword"
+    },
+    "weapon": "greatsword",
+    "drawn": true,
+    "attack": "idle",
+    "combo": 2,
+    "parrying": false,
+    "rolling": false,
+    "enemies": [
+      {
+        "kind": "assassin",
+        "hp": 31,
+        "alive": true,
+        "state": "strafe",
+        "x": -11.425107216510892,
+        "z": -6.210213043137181
+      },
+      {
+        "kind": "assassin",
+        "hp": 55,
+        "alive": true,
+        "state": "patrol",
+        "x": 7.344324550265,
+        "z": -7.7853257141694865
+      },
+      {
+        "kind": "assassin",
+        "hp": 55,
+        "alive": true,
+        "state": "chase",
+        "x": -4.285501708938127,
+        "z": -11.65093767984786
+      }
+    ],
+    "boss": null,
+    "fps": 2
+  },
+  "errors": []
+}

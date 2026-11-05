@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Shadows of the Broken Dynasty</title>
+<link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+<div id="app"></div>
+
+<div id="hud" class="hidden">
+  <div id="player-bars">
+    <div class="bar-label"><span>LI WEI — THE BROKEN BLADE</span><span id="weapon-name">曲刀 · KATANA</span></div>
+    <div class="bar hp"><div id="hp-fill"></div></div>
+    <div class="bar st"><div id="st-fill"></div></div>
+    <div class="bar en"><div id="en-fill"></div><span id="en-text">QI</span></div>
+    <div id="combo"><span id="combo-count">0</span><span id="combo-label">HITS</span></div>
+  </div>
+  <div id="target-bar" class="hidden">
+    <div id="target-name">ASSASSIN</div>
+    <div class="bar hp enemy"><div id="target-hp"></div></div>
+    <div class="bar posture"><div id="target-posture"></div></div>
+  </div>
+  <div id="boss-bar" class="hidden">
+    <div id="boss-name">⚔ THE FALLEN KING — LORD OF THE BROKEN DYNASTY ⚔</div>
+    <div class="bar hp boss"><div id="boss-hp"></div></div>
+    <div id="boss-phase">PHASE I</div>
+  </div>
+  <div id="wave-banner"></div>
+  <div id="center-msg"></div>
+  <div id="parry-flash">PERFECT PARRY</div>
+  <div id="controls-hint">
+    <b>WASD</b> move · <b>Mouse</b> camera · <b>J / Click</b> light · <b>K</b> heavy ·
+    <b>L</b> special · <b>F</b> parry · <b>Space</b> jump ×2 · <b>C</b> roll ·
+    <b>Q</b> lock-on · <b>1–4</b> weapons · <b>R</b> sheathe
+  </div>
+  <div id="debug" class="hidden"></div>
+</div>
+
+<div id="menu">
+  <div class="menu-inner">
+    <div class="menu-kicker">A WUXIA COMBAT TALE</div>
+    <h1>SHADOWS<br/><span>OF THE BROKEN DYNASTY</span></h1>
+    <p class="menu-sub">The fortress fell. The dynasty broke. One blade remains.<br/>Cut through the assassins. Break the Fallen King.</p>
+    <button id="start-btn">⚔ &nbsp;ENTER THE FORTRESS</button>
+    <div class="menu-controls">
+      <div><b>WASD</b> move</div><div><b>J</b> light attack</div><div><b>K</b> heavy</div>
+      <div><b>F</b> parry</div><div><b>C</b> dodge roll</div><div><b>Q</b> lock-on</div>
+      <div><b>1–4</b> switch weapon</div><div><b>Space</b> jump / double jump</div><div><b>L</b> special</div>
+    </div>
+    <div id="loading">Loading blades and bones…</div>
+  </div>
+</div>
+
+<div id="end-screen" class="hidden">
+  <div class="menu-inner">
+    <h1 id="end-title">THE DYNASTY FALLS</h1>
+    <p id="end-sub"></p>
+    <button id="restart-btn">FIGHT AGAIN</button>
+  </div>
+</div>
+
+<script type="module" src="/src/main.ts"></script>
+</body>
+</html>
